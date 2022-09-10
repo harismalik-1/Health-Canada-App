@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".terms_and_services">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="25dp">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.25"
+            android:gravity="center"
+            android:text="Terms And Services "
+            android:textAlignment="center"
+            android:textColor="@color/red"
+            android:textSize="27dp"
+            android:fontFamily="sans-serif-black"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:text="Ontario Health’s website uses cookies.
+            A cookie is a small text file sent from a Web server and
+            placed on your computer’s hard drive. A cookie is generally used to enhance
+            your browsing experience. You can choose to set your browser to detect and reject
+            cookies, to accept cookies from all sites, or to prompt you whenever a site wants
+            to send you a cookie. If you choose, they may be used to 'remember' your password and
+            make it easier and faster to log-in to certain sites. Check your browser’s Help files to
+            learn how to do this. If you choose to refuse cookies, you may not be able to access
+            some of the interactive features on our websites.
+
+            Cookies used by Ontario Health do not give us access to anything on your hard drive and
+             cannot do anything to your computer. Cookies used by us are encrypted for security
+             purposes to make any information in the cookie unreadable to anyone except our agency.
+              Ontario Health uses two types of cookies: session cookies (temporary) or persistent
+              cookies (longer-term/continuing use).
+                Cookies used by Ontario Health do not give us access to anything on your hard drive and
+             cannot do anything to your computer. Cookies used by us are encrypted for security
+             purposes to make any information in the cookie unreadable to anyone except our agency.
+              Ontario Health uses two types of cookies: session cookies (temporary) or persistent
+              cookies (longer-term/continuing use)." />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="match_parent"
+            android:layout_height="9dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.2"
+            android:gravity="center"
+            android:text="I Acknowledge That I Have Read And Understand The Terms."
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="233dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button"
+            android:text="Continue"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
