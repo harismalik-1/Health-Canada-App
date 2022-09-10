@@ -19,6 +19,18 @@
         <activity
             android:name=".terms_and_services"
             android:exported="false" />
+        <activity
+            android:name=".Book_Appointment_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ScanHealthCard1"
+            android:exported="false" />
+        <activity
+            android:name=".YourInformation"
+            android:exported="false" />
+        <activity
+            android:name=".HomeScreen"
+            android:exported="false" />
 
         <activity android:name=".GettingStarted"
             android:exported="true"
