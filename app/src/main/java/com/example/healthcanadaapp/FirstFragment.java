@@ -33,7 +33,7 @@ public class FirstFragment extends Fragment {
         binding.buttonFirst.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getActivity(), Book_Appointment_Activity.class));
+                startActivity(new Intent(getActivity(), ScanHealthCard1.class));
             }
         });
     }

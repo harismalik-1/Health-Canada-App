@@ -6,21 +6,23 @@
     android:layout_height="match_parent"
     tools:context=".Book_Appointment_Activity">
 
-    <ImageView
-        android:id="@+id/google_maps"
-        android:layout_width="523dp"
-        android:layout_height="832dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.07"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/google_M"
-        tools:layout_editor_absoluteY="-222dp" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/clinic_view"
-        android:layout_width="412dp"
-        android:layout_height="447dp"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="399dp" />
+        android:layout_width="413dp"
+        android:layout_height="345dp"
+        android:layout_marginTop="496dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="413dp"
+        android:layout_height="659dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/google"
+        tools:layout_editor_absoluteY="-69dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
