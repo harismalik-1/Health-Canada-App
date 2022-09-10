@@ -5,12 +5,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-=
 
-import androidx.annotation.NonNull;
-import androidx.recyclerview.widget.RecyclerView;
 
-import java.util.ArrayList;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -19,16 +15,16 @@ import java.util.ArrayList;
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     Context context;
-    ArrayList<Venue> venlist;
+    ArrayList<Clinic> venlist;
     public venclickListener vlistenr;
 
-    public Myadapter(Context context, ArrayList<Venue> venlist, venclickListener vlistener) {
+    public void Myadapter(Context context, ArrayList<Clinic> venlist, venclickListener vlistener) {
         this.context = context;
         this.venlist = venlist;
         this.vlistenr = vlistener;
     }
     public interface venclickListener{
-        void selectedvenue(Venue v);
+        void selectedvenue(Clinic v);
     }
 
     @NonNull
@@ -40,15 +36,14 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
-        Venue ven = venlist.get(position);
-        holder.venuname.setText(ven.getVenueName());
-        holder.location.setText(ven.getLocation());
-        holder.starttime.setText(ven.starttime());
-        holder.endtime.setText(ven.endtime());
+        Clinic clinic = venlist.get(position);
+        holder.clinicname.setText("h");
+        holder.location.setText("h");
+        holder.time.setText("h");
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                vlistenr.selectedvenue(ven);
+                vlistenr.selectedvenue(clinic);
             }
         });
 
@@ -60,14 +55,13 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     }
 
     public static class MyViewHolder extends RecyclerView.ViewHolder{
-        TextView venuname, location, date, endtime, starttime;
+        TextView clinicname, location, date, time, starttime;
 
         public MyViewHolder (@NonNull View itemView){
             super(itemView);
-            venuname = itemView.findViewById(R.id.venuename);
+            clinicname = itemView.findViewById(R.id.clinicname);
             location = itemView.findViewById(R.id.locationf);
-            endtime = itemView.findViewById(R.id.endtim);
-            starttime = itemView.findViewById(R.id.starttim);
+            time = itemView.findViewById(R.id.time);
 
         }
     }

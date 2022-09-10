@@ -7,6 +7,15 @@
         <entry key="app/src/main/res/drawable/rounded_button.xml" value="0.209" />
         <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.19805603027343752" />
         <entry key="app/src/main/res/layout/activity_terms_and_services.xml" value="0.2664703369140625" />
+        <entry key="..\:/Users/dhruv/OneDrive/Documents/GitHub/B07Project/Health-Canada-App/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1215" />
+        <entry key="..\:/Users/dhruv/OneDrive/Documents/GitHub/B07Project/Health-Canada-App/app/src/main/res/layout/activity_book_appointment.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/dhruv/OneDrive/Documents/GitHub/B07Project/Health-Canada-App/app/src/main/res/layout/activity_book_appointment2.xml" value="0.2" />
+        <entry key="..\:/Users/dhruv/OneDrive/Documents/GitHub/B07Project/Health-Canada-App/app/src/main/res/layout/activity_main.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/dhruv/OneDrive/Documents/GitHub/B07Project/Health-Canada-App/app/src/main/res/layout/activity_scan_health_card1.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/dhruv/OneDrive/Documents/GitHub/B07Project/Health-Canada-App/app/src/main/res/layout/clinics_card.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/dhruv/OneDrive/Documents/GitHub/B07Project/Health-Canada-App/app/src/main/res/layout/content_book_appointment.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/dhruv/OneDrive/Documents/GitHub/B07Project/Health-Canada-App/app/src/main/res/layout/content_main.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/dhruv/OneDrive/Documents/GitHub/B07Project/Health-Canada-App/app/src/main/res/layout/fragment_first.xml" value="0.25052083333333336" />
       </map>
     </option>
   </component>
