@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/rectangle.xml" value="0.214" />
         <entry key="app/src/main/res/drawable/rounded_button.xml" value="0.209" />
+        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.19805603027343752" />
         <entry key="app/src/main/res/layout/activity_terms_and_services.xml" value="0.2664703369140625" />
       </map>
     </option>
