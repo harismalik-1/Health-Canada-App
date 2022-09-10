@@ -1,6 +1,5 @@
 package com.example.healthcanadaapp;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,11 +9,11 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
-import com.example.healthcanadaapp.databinding.FragmentFirstBinding;
+import com.example.healthcanadaapp.databinding.FragmentSecond2Binding;
 
-public class FirstFragment extends Fragment {
+public class Second2Fragment extends Fragment {
 
-    private FragmentFirstBinding binding;
+    private FragmentSecond2Binding binding;
 
     @Override
     public View onCreateView(
@@ -22,7 +21,7 @@ public class FirstFragment extends Fragment {
             Bundle savedInstanceState
     ) {
 
-        binding = FragmentFirstBinding.inflate(inflater, container, false);
+        binding = FragmentSecond2Binding.inflate(inflater, container, false);
         return binding.getRoot();
 
     }
@@ -30,10 +29,11 @@ public class FirstFragment extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        binding.buttonFirst.setOnClickListener(new View.OnClickListener() {
+        binding.buttonSecond.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getActivity(), Book_Appointment_Activity.class));
+                NavHostFragment.findNavController(Second2Fragment.this)
+                        .navigate(R.id.action_Second2Fragment_to_First2Fragment);
             }
         });
     }

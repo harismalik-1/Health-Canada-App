@@ -26,14 +26,14 @@
 
 
             <TextView
-                android:id="@+id/venuename"
+                android:id="@+id/clinicname"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="10dp"
                 android:fontFamily="sans-serif-black"
-                android:text="Panam"
                 android:singleLine="true"
+                android:text="Clinic"
                 android:textColor="@color/black"
                 android:textSize="26dp" />
         </LinearLayout>
@@ -51,12 +51,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="18dp"
+                android:layout_marginTop="0dp"
                 android:fontFamily="sans-serif-medium"
-                android:text="Panam"
                 android:singleLine="true"
+                android:text="Available"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                android:layout_marginTop="0dp"/>
+                android:textSize="18dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -75,31 +75,11 @@
 
 
             <TextView
-                android:id="@+id/starttim"
+                android:id="@+id/time"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
                 android:singleLine="true"
-                android:fontFamily="sans-serif-medium"
-                android:text="Panam"
-                android:textColor="@color/black"
-                android:textSize="15dp"
-                android:layout_marginTop="1dp"/>
-            <TextView
-                android:id="@+id/dash"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="10dp"
-                android:fontFamily="sans-serif-medium"
-                android:text="-"
-                android:textColor="@color/black"
-                android:textSize="15dp"
-                android:layout_marginTop="1dp"/>
-            <TextView
-                android:id="@+id/endtim"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="20dp"
                 android:fontFamily="sans-serif-medium"
                 android:text="Panam"
                 android:textColor="@color/black"
