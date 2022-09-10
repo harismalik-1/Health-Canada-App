@@ -6,7 +6,12 @@
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
-
+    <string name="FirstHeading">All your Health Records in One Place</string>
+    <string name="SecondHeading">Never Lose your Records, and Information</string>
+    <string name="ThridHeading">We Save your Time, and Assure Quality Care</string>
+    <string name="FirstDescription">Focus on getting the help you deserve and we will take care of the rest</string>
+    <string name="SecondDescription">We save all your records and information, and make sure its private and safe</string>
+    <string name="ThirdDescription">We save all your records and information, and make sure its private and safe</string>
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="title_activity_book_appointment">Book_Appointment_Activity</string>

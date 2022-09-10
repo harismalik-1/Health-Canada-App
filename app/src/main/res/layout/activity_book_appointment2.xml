@@ -6,15 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Book_Appointment_Activity">
 
-    <ImageView
-        android:id="@+id/google_maps"
-        android:layout_width="523dp"
-        android:layout_height="832dp"
-        android:layout_marginBottom="120dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
+
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/clinic_view"
