@@ -36,3 +36,4 @@ What differentiates you from the competition?
  
 How are we going to measure financial performance?
 ·  	We measure performance by comparing the running costs of the medical institutions before and after the integration of our platform into their system.
+![image](https://user-images.githubusercontent.com/74035307/189538015-a81cea9d-709a-4be2-8409-86e8c25a2e98.png)
