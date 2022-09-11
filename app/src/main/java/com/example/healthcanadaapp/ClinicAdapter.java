@@ -29,7 +29,7 @@ public class ClinicAdapter extends RecyclerView.Adapter<ClinicAdapter.ViewHolder
         Clinic clinic = clinics.get(position);
 
         holder.name.setText(clinic.clinicname);
-        holder.description.setText(clinic.getExtrainfo1());
+        holder.description.setText(clinic.location);
 
     }
 
