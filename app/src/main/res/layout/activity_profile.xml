@@ -31,23 +31,26 @@
                 android:textSize="30dp" />
 
             <ImageView
-                android:id="@+id/imageView6"
+                android:id="@+id/imageView4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 app:srcCompat="@drawable/image_22" />
 
         </LinearLayout>
 
         <ImageView
-            android:id="@+id/imageView4"
-            android:layout_width="match_parent"
-            android:layout_height="115dp"
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
             app:srcCompat="@drawable/component_2" />
 
         <ImageView
             android:id="@+id/imageView5"
             android:layout_width="match_parent"
-            android:layout_height="217dp"
+            android:layout_height="wrap_content"
             app:srcCompat="@drawable/image_21" />
 
         <TextView
@@ -55,8 +58,8 @@
             android:layout_width="match_parent"
             android:layout_height="88dp"
             android:gravity="center"
-            android:text="Scan QR Code and instantly access your health
-            information,  reports, and records easily.  "
+            android:text="Scan your QR Code and instantly access your health
+information, reports, and records easily.  "
             android:textColor="@color/black"
             android:textSize="18dp" />
 
