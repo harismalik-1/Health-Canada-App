@@ -60,8 +60,7 @@ public class ScanHealthCard1 extends AppCompatActivity {
         Log.i("result", "code:" + requestCode);
         if (requestCode == 0) {
         bar.setVisibility(View.VISIBLE);
-//            startActivity(new Intent(this.getApplicationContext(), HomeScreen.class));
-            startActivity(new Intent(this.getApplicationContext(), LoadingPage.class));
+        startActivity(new Intent(this.getApplicationContext(), HomeScreen.class));
         }
     }
 }
