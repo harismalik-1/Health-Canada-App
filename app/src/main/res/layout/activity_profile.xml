@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="357dp"
+                android:layout_height="69dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="My Profile "
+                android:textColor="@color/red"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/image_22" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            app:srcCompat="@drawable/component_2" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="217dp"
+            app:srcCompat="@drawable/image_21" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:gravity="center"
+            android:text="Scan QR Code and instantly access your health
+            information,  reports, and records easily.  "
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="Accessibility Features"
+            android:textColor="@color/red"
+            android:textSize="22dp" />
+
+
+        <Switch
+            android:layout_width="195dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:text="Dictation"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <Switch
+            android:layout_width="195dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:text="Voice Assistant"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <Switch
+            android:layout_width="195dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:text="Font Upscaler"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

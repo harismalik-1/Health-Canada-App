@@ -18,11 +18,20 @@
         android:theme="@style/Theme.HealthCanadaApp"
         tools:targetApi="31">
         <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".Accessibility_Services"
+            android:exported="false" />
+        <activity
+            android:name=".your_information"
+            android:exported="false" />
+        <activity
             android:name=".SpecificClinic"
             android:exported= "true"
-            >
+            />
 
-        </activity>
+
 
         <activity
             android:name=".sign_up"
@@ -35,19 +44,19 @@
             android:exported="false" />
         <activity
             android:name=".ScanHealthCard1"
-            android:exported="false" />
+
         <activity
             android:name=".HomeScreen"
             android:exported="false" />
-        <activity android:name=".your_information"
-            android:exported="false"/>
-        <activity
-            android:name=".GettingStarted"
+
+        <activity android:name=".GettingStarted"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.HealthCanadaApp.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
