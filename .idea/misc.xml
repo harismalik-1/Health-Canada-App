@@ -3,24 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1195" />
-        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1195" />
-        <entry key="app/src/main/res/drawable/nextbutton.xml" value="0.201" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.14907407407407408" />
-        <entry key="app/src/main/res/layout/clinics.xml" value="0.11252136230468751" />
-        <entry key="app/src/main/res/layout/clinics_card.xml" value="0.12522735595703127" />
-        <entry key="app/src/main/res/layout/content_main.xml" value="0.14907407407407408" />
-        <entry key="app/src/main/res/layout/fragment_first.xml" value="0.14907407407407408" />
-        <entry key="app/src/main/res/layout/fragment_second.xml" value="0.14907407407407408" />
-        <entry key="app/src/main/res/layout/getting_started_1.xml" value="0.2813765182186235" />
-        <entry key="app/src/main/res/layout/slides_layout.xml" value="0.1798040771484375" />
-        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/rectangle.xml" value="0.214" />
         <entry key="app/src/main/res/drawable/rounded_button.xml" value="0.209" />
         <entry key="app/src/main/res/layout/activity_book_appointment2.xml" value="0.15520833333333334" />
         <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.24246826171875002" />
         <entry key="app/src/main/res/layout/activity_terms_and_services.xml" value="0.2664703369140625" />
-        <entry key="app/src/main/res/layout/activity_your_information.xml" value="0.4403091430664063" />
+        <entry key="app/src/main/res/layout/activity_your_information.xml" value="0.4465795541890853" />
       </map>
     </option>
   </component>

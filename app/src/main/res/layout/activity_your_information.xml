@@ -14,133 +14,232 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:padding="10dp">
+        android:padding="15dp">
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Your Records"
-            android:textColor="@color/red"
-            android:textAlignment="center"
             android:fontFamily="sans-serif-black"
-            android:textSize="30dp"/>
-
-        <TextView
-            android:id="@+id/textView8"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Name"
+            android:text="My Records"
+            android:textAlignment="center"
             android:textColor="@color/red"
-            android:textSize="17dp"/>
+            android:textSize="30dp" />
 
-        <TextView
-            android:id="@+id/textView9"
-            android:layout_width="match_parent"
+        <LinearLayout
+            android:layout_width="409dp"
             android:layout_height="wrap_content"
-            android:text="Age"
-            android:textColor="@color/red"
-            android:textSize="17dp"/>
+            android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/textView10"
-            android:layout_width="match_parent"
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="69dp"
+                android:layout_height="36dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Name"
+                android:textColor="@color/red"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="325dp"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:text="Kiera "
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="409dp"
             android:layout_height="wrap_content"
-            android:text="Blood Group"
-            android:textColor="@color/red"
-            android:textSize="17dp"/>
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="69dp"
+                android:layout_height="36dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Age"
+                android:textColor="@color/red"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="325dp"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:text="Kiera "
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="409dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="106dp"
+                android:layout_height="36dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Blood Group"
+                android:textColor="@color/red"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="325dp"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:text="Kiera "
+                android:textColor="@color/black" />
+
+        </LinearLayout>
 
         <TextView
             android:id="@+id/textView11"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Tests"
+            android:fontFamily="sans-serif-black"
+            android:layout_height="37dp"
+            android:layout_gravity="center_vertical"
+            android:text="@string/Tests"
             android:textColor="@color/red"
-            android:textSize="17sp"/>
+            android:textSize="17sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="271dp"
+            android:layout_height="186dp"
             android:orientation="horizontal">
 
+
             <androidx.cardview.widget.CardView
-                android:layout_width="223dp"
-                android:layout_height="match_parent"
+                android:layout_width="162dp"
+                android:layout_height="wrap_content"
                 app:cardBackgroundColor="@color/red"
                 app:cardCornerRadius="10dp">
 
                 <LinearLayout
-                    android:layout_width="187dp"
-                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_height="186dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
                     android:orientation="vertical">
 
                     <TextView
                         android:id="@+id/textView14"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Covid Test" />
+                        android:fontFamily="sans-serif-black"
+                        android:text="Covid Test"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
 
                     <Space
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="16dp"
                         android:minHeight="40dp" />
 
                     <TextView
                         android:id="@+id/textView15"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="10/1/2021" />
+                        android:fontFamily="sans-serif-black"
+                        android:text="10/1/2021"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="17dp" />
 
                     <Space
                         android:layout_width="match_parent"
-                        android:layout_height="40dp" />
+                        android:layout_height="19dp" />
 
                     <TextView
                         android:id="@+id/textView16"
                         android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/Ryerson"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="17dp" />
+
+                    <Button
+                        android:id="@+id/button10"
+                        android:layout_width="103dp"
                         android:layout_height="wrap_content"
-                        android:text="Ryerson" />
+                        android:layout_gravity="center"
+                        android:backgroundTint="@color/white"
+                        android:text="View"
+                        android:textColor="@color/black" />
+
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
 
             <androidx.cardview.widget.CardView
-                android:layout_width="118dp"
-                android:layout_height="match_parent"
+                android:layout_width="162dp"
+                android:layout_height="wrap_content"
                 app:cardBackgroundColor="@color/red"
                 app:cardCornerRadius="10dp">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_height="186dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView17"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Blood Test" />
+                        android:fontFamily="sans-serif-black"
+                        android:text="Covid Test"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
 
                     <Space
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="16dp"
                         android:minHeight="40dp" />
 
                     <TextView
-                        android:id="@+id/textView18"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="14/4/2022" />
+                        android:fontFamily="sans-serif-black"
+                        android:text="10/1/2021"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="17dp" />
 
                     <Space
                         android:layout_width="match_parent"
-                        android:layout_height="40dp" />
+                        android:layout_height="19dp" />
 
                     <TextView
-                        android:id="@+id/textView19"
                         android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/Ryerson"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="17dp" />
+
+                    <Button
+                        android:layout_width="103dp"
                         android:layout_height="wrap_content"
-                        android:text="Union Station" />
+                        android:layout_gravity="center"
+                        android:backgroundTint="@color/white"
+                        android:text="View"
+                        android:textColor="@color/black" />
+
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -148,34 +247,157 @@
 
         <TextView
             android:id="@+id/textView12"
-            android:layout_width="107dp"
-            android:layout_height="20dp"
-            android:text="Vaccinations"
+            android:layout_width="264dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="sans-serif-black"
+            android:paddingTop="10dp"
+            android:text="@string/Vaccinations"
             android:textColor="@color/red"
-            android:textSize="17dp"/>
+            android:textSize="17dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="219dp"
             android:orientation="horizontal">
 
-            <Button
-                android:id="@+id/button8"
-                android:layout_width="wrap_content"
-                android:layout_height="237dp"
-                android:layout_weight="1" />
+            <androidx.cardview.widget.CardView
+                android:layout_width="162dp"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/red"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="186dp"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Covid Test"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="16dp"
+                        android:minHeight="40dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-black"
+                        android:text="10/1/2021"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="17dp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="19dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/Ryerson"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="17dp" />
+
+                    <Button
+                        android:layout_width="103dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:text="View"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
 
             <Space
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1" />
 
-            <Button
-                android:id="@+id/button7"
-                android:layout_width="wrap_content"
-                android:layout_height="234dp"
-                android:layout_weight="1" />
+            <androidx.cardview.widget.CardView
+                android:layout_width="162dp"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/red"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="186dp"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Covid Test"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="16dp"
+                        android:minHeight="40dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-black"
+                        android:text="10/1/2021"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="17dp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="19dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/Ryerson"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="17dp" />
+
+                    <Button
+                        android:layout_width="103dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:text="View"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
 
         </LinearLayout>
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="218dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_button"
+            android:textSize="20dp"
+            android:text="Continue" />
+
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
