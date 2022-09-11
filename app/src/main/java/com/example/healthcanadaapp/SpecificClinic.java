@@ -24,7 +24,7 @@ public class SpecificClinic extends AppCompatActivity {
 
 
         String[] arraySpinner = new String[] {
-                "5.50PM", "6:30PM", "7:10PM"
+                "5:50PM", "6:30PM", "7:10PM"
         };
         Spinner s = (Spinner) findViewById(R.id.Spinner01);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
