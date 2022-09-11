@@ -5,10 +5,12 @@
       <map>
         <entry key="app/src/main/res/drawable/rectangle.xml" value="0.214" />
         <entry key="app/src/main/res/drawable/rounded_button.xml" value="0.209" />
+        <entry key="app/src/main/res/layout/activity_accessibility_services.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_book_appointment.xml" value="0.29583333333333334" />
         <entry key="app/src/main/res/layout/activity_book_appointment2.xml" value="0.15520833333333334" />
         <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.24246826171875002" />
         <entry key="app/src/main/res/layout/activity_terms_and_services.xml" value="0.2664703369140625" />
-        <entry key="app/src/main/res/layout/activity_your_information.xml" value="0.4465795541890853" />
+        <entry key="app/src/main/res/layout/activity_your_information.xml" value="0.3269287109375001" />
       </map>
     </option>
   </component>
