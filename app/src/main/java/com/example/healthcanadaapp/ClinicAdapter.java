@@ -30,7 +30,7 @@ public class ClinicAdapter extends RecyclerView.Adapter<ClinicAdapter.ViewHolder
 
         holder.name.setText(clinic.clinicname);
         holder.description.setText(clinic.location);
-
+        holder.time2.setText(clinic.time);
     }
 
     @Override
@@ -46,13 +46,14 @@ public class ClinicAdapter extends RecyclerView.Adapter<ClinicAdapter.ViewHolder
         public final View view;
         public final TextView name;
         public final TextView description;
-
+        public final TextView time2;
 
         public ViewHolder(View view) {
             super(view);
             this.view = view;
             name = view.findViewById(R.id.clinicname);
             description = view.findViewById(R.id.locationf);
+            time2 = view.findViewById(R.id.time);
 
         }
     }
