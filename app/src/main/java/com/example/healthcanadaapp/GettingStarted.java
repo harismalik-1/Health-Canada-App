@@ -76,7 +76,7 @@ public class GettingStarted extends AppCompatActivity {
             dots.addView(dotss[i]);
         }
         if(dotss.length>0){
-            dotss[position].setTextColor(getResources().getColor(R.color.black));
+            dotss[position].setTextColor(getResources().getColor(R.color.red));
         }
     }
     ViewPager.OnPageChangeListener changeListener = new ViewPager.OnPageChangeListener() {
