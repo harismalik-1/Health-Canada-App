@@ -39,6 +39,8 @@
         <activity
             android:name=".HomeScreen"
             android:exported="false" />
+        <activity android:name=".your_information"
+            android:exported="false"/>
         <activity
             android:name=".GettingStarted"
             android:exported="true"

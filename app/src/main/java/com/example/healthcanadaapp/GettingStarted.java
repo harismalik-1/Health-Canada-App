@@ -42,7 +42,7 @@ public class GettingStarted extends AppCompatActivity {
         if ( !firstRun )
         {
             // here run your first-time instructions, for example :
-            startActivity(new Intent(getApplicationContext(), ScanHealthCard1.class));
+            startActivity(new Intent(getApplicationContext(), terms_and_services.class));
 
 
 
@@ -51,7 +51,7 @@ public class GettingStarted extends AppCompatActivity {
         getstarted.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), ScanHealthCard1.class));
+                startActivity(new Intent(getApplicationContext(), terms_and_services.class));
             }
         });
 

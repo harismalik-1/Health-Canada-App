@@ -34,7 +34,7 @@
                 android:fontFamily="sans-serif-black"
                 android:singleLine="true"
                 android:text="Clinic"
-                android:textColor="@color/black"
+                android:textColor="@color/darkred"
                 android:textSize="26dp" />
         </LinearLayout>
 
@@ -55,7 +55,7 @@
                 android:fontFamily="sans-serif-medium"
                 android:singleLine="true"
                 android:text="Available"
-                android:textColor="@color/black"
+                android:textColor="@color/red"
                 android:textSize="18dp" />
         </LinearLayout>
 
@@ -83,7 +83,7 @@
                 android:fontFamily="sans-serif-medium"
                 android:singleLine="true"
                 android:text="Panam"
-                android:textColor="@color/black"
+                android:textColor="@color/red"
                 android:textSize="15dp" />
         </LinearLayout>
 

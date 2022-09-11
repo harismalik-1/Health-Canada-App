@@ -4,13 +4,15 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
-public class Book_Appointment_Activity extends AppCompatActivity {
+public class Book_Appointment_Activity extends AppCompatActivity implements ClinicAdapter.clinicclickListener {
 
     private RecyclerView clinic_view;
     ArrayList<Clinic> clinics;
@@ -29,7 +31,7 @@ public class Book_Appointment_Activity extends AppCompatActivity {
         RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(this);
         this.clinic_view.setLayoutManager(mLayoutManager);
 
-        adapter = new ClinicAdapter(clinics);
+        adapter = new ClinicAdapter(this,clinics,this::selectedclinic);
         this.clinic_view.setAdapter(adapter);
 
 
@@ -64,6 +66,10 @@ public class Book_Appointment_Activity extends AppCompatActivity {
 
     }
 
+    @Override
+    public void selectedclinic(Clinic c) {
+        startActivity(new Intent(getApplicationContext(), SpecificClinic.class));
+    }
 }
 
 

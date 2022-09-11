@@ -36,26 +36,7 @@
             android:layout_height="0dp"
             android:layout_weight="1.5"
             android:gravity="center"
-            android:text="Ontario Health’s website uses cookies.
-            A cookie is a small text file sent from a Web server and
-            placed on your computer’s hard drive. A cookie is generally used to enhance
-            your browsing experience. You can choose to set your browser to detect and reject
-            cookies, to accept cookies from all sites, or to prompt you whenever a site wants
-            to send you a cookie. If you choose, they may be used to 'remember' your password and
-            make it easier and faster to log-in to certain sites. Check your browser’s Help files to
-            learn how to do this. If you choose to refuse cookies, you may not be able to access
-            some of the interactive features on our websites.
-
-            Cookies used by Ontario Health do not give us access to anything on your hard drive and
-             cannot do anything to your computer. Cookies used by us are encrypted for security
-             purposes to make any information in the cookie unreadable to anyone except our agency.
-              Ontario Health uses two types of cookies: session cookies (temporary) or persistent
-              cookies (longer-term/continuing use).
-                Cookies used by Ontario Health do not give us access to anything on your hard drive and
-             cannot do anything to your computer. Cookies used by us are encrypted for security
-             purposes to make any information in the cookie unreadable to anyone except our agency.
-              Ontario Health uses two types of cookies: session cookies (temporary) or persistent
-              cookies (longer-term/continuing use)." />
+            android:text="Ontario Health’s website uses cookies. A cookie is a small text file sent from a Web server and placed on your computer’s hard drive. A cookie is generally used to enhance your browsing experience. You can choose to set your browser to detect and reject cookies, to accept cookies from all sites, or to prompt you whenever a site wants to send you a cookie. If you choose, they may be used to 'remember' your password and make it easier and faster to log-in to certain sites. Check your browser’s Help files to learn how to do this. If you choose to refuse cookies, you may not be able to access some of the interactive features on our websites. Cookies used by Ontario Health do not give us access to anything on your hard drive and cannot do anything to your computer. Cookies used by us are encrypted for security purposes to make any information in the cookie unreadable to anyone except our agency. Ontario Health uses two types of cookies: session cookies (temporary) or persistent cookies (longer-term/continuing use). Cookies used by Ontario Health do not give us access to anything on your hard drive and cannot do anything to your computer. Cookies used by us are encrypted for security purposes to make any information in the cookie unreadable to anyone except our agency. Ontario Health uses two types of cookies: session cookies (temporary) or persistent cookies (longer-term/continuing use)." />
 
         <CheckBox
             android:id="@+id/checkBox2"

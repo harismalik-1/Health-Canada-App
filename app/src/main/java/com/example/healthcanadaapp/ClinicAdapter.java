@@ -1,5 +1,6 @@
 package com.example.healthcanadaapp;
 
+import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,6 +15,13 @@ public class ClinicAdapter extends RecyclerView.Adapter<ClinicAdapter.ViewHolder
     private ArrayList<Clinic> clinics;
     public ClinicAdapter(ArrayList<Clinic> clinics) {
         this.clinics = clinics;
+    }
+    public clinicclickListener clistenr;
+
+    public ClinicAdapter(Context context, ArrayList<Clinic> clinics, clinicclickListener clistenr) {
+        this.clinics = clinics;
+        this.clistenr = clistenr;
+
     }
 
     @NonNull
@@ -31,6 +39,12 @@ public class ClinicAdapter extends RecyclerView.Adapter<ClinicAdapter.ViewHolder
         holder.name.setText(clinic.clinicname);
         holder.description.setText(clinic.location);
         holder.time2.setText(clinic.time);
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                clistenr.selectedclinic(clinic);
+            }
+        });
     }
 
     @Override
@@ -56,6 +70,11 @@ public class ClinicAdapter extends RecyclerView.Adapter<ClinicAdapter.ViewHolder
             time2 = view.findViewById(R.id.time);
 
         }
+    }
+    public interface clinicclickListener{
+
+        void selectedclinic(Clinic c);
+
     }
 }
 

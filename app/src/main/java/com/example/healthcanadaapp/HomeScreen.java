@@ -11,6 +11,7 @@ import android.widget.Button;
 public class HomeScreen extends AppCompatActivity {
 
     Button book;
+    Button yourinfo;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,9 +20,16 @@ public class HomeScreen extends AppCompatActivity {
         book.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Log.i("ta", "onCrkkkeate: ");
+
 
                 startActivity(new Intent(getApplicationContext(),Book_Appointment_Activity.class));
+            }
+        });
+        yourinfo = findViewById(R.id.donationbut);
+        yourinfo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),your_information.class));
             }
         });
     }
