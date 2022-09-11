@@ -1,25 +1,36 @@
 package com.example.healthcanadaapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
-import android.view.View;
+import android.util.Log;
 import android.view.ViewGroup;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class Book_Appointment_Activity extends AppCompatActivity {
 
-    RecyclerView clinic_view;
+    private RecyclerView clinic_view;
     ArrayList<Clinic> clinics;
-    protected void onCreate(Bundle savedInstanceState, ViewGroup container) {
+
+    private RecyclerView.Adapter adapter;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_book_appointment2);
+        Log.i("ta", "onCreate: ");
+        setContentView(R.layout.activity_book_appointment);
+
         clinics = create_clinics();
 
 
+        this.clinic_view = (RecyclerView) findViewById(R.id.clinic_view);
+        RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(this);
+        this.clinic_view.setLayoutManager(mLayoutManager);
+
+        adapter = new ClinicAdapter(clinics);
+        this.clinic_view.setAdapter(adapter);
 
 
     }
@@ -39,3 +50,6 @@ public class Book_Appointment_Activity extends AppCompatActivity {
     }
 
 }
+
+
+
