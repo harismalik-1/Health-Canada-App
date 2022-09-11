@@ -10,16 +10,18 @@
         android:layout_width="409dp"
         android:layout_height="729dp"
         android:orientation="vertical"
+        android:padding="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:padding="15dp">
+        app:layout_constraintVertical_bias="0.0">
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="52dp"
             android:fontFamily="sans-serif-black"
             android:text="My Records"
             android:textAlignment="center"
@@ -33,20 +35,39 @@
 
             <TextView
                 android:id="@+id/name"
-                android:layout_width="69dp"
+                android:layout_width="65dp"
                 android:layout_height="36dp"
                 android:fontFamily="sans-serif-black"
-                android:text="Name"
+                android:text="Name:"
                 android:textColor="@color/red"
                 android:textSize="17dp" />
 
             <TextView
                 android:id="@+id/hellp"
-                android:layout_width="325dp"
+                android:layout_width="151dp"
                 android:layout_height="36dp"
-                android:layout_weight="1"
-                android:text="Kiera "
-                android:textColor="@color/black" />
+                android:fontFamily="sans-serif-black"
+                android:text="Kiera Michaels"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/name2"
+                android:layout_width="49dp"
+                android:layout_height="36dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Sex:"
+                android:textColor="@color/red"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/hellp2"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Female"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
 
         </LinearLayout>
 
@@ -57,20 +78,39 @@
 
             <TextView
                 android:id="@+id/age"
-                android:layout_width="69dp"
+                android:layout_width="51dp"
                 android:layout_height="36dp"
                 android:fontFamily="sans-serif-black"
-                android:text="Age"
+                android:text="Age:"
                 android:textColor="@color/red"
                 android:textSize="17dp" />
 
             <TextView
                 android:id="@+id/textView19"
-                android:layout_width="325dp"
+                android:layout_width="166dp"
                 android:layout_height="36dp"
-                android:layout_weight="1"
-                android:text="28"
-                android:textColor="@color/black" />
+                android:fontFamily="sans-serif-black"
+                android:text="19"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/age2"
+                android:layout_width="55dp"
+                android:layout_height="36dp"
+                android:fontFamily="sans-serif-black"
+                android:text="DOB:"
+                android:textColor="@color/red"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:fontFamily="sans-serif-black"
+                android:text="10/12/2003"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
 
         </LinearLayout>
 
@@ -81,32 +121,51 @@
 
             <TextView
                 android:id="@+id/some_id"
-                android:layout_width="106dp"
+                android:layout_width="111dp"
                 android:layout_height="36dp"
                 android:fontFamily="sans-serif-black"
-                android:text="Blood Group"
+                android:text="Blood Group:"
                 android:textColor="@color/red"
                 android:textSize="17dp" />
 
             <TextView
                 android:id="@+id/anootherid"
-                android:layout_width="325dp"
+                android:layout_width="106dp"
                 android:layout_height="36dp"
-                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
                 android:text="O+"
-                android:textColor="@color/black" />
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/some_id2"
+                android:layout_width="86dp"
+                android:layout_height="36dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Province:"
+                android:textColor="@color/red"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/anootherid2"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:fontFamily="sans-serif-black"
+                android:text="ON"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
 
         </LinearLayout>
 
         <TextView
             android:id="@+id/textView11"
             android:layout_width="match_parent"
-            android:fontFamily="sans-serif-black"
             android:layout_height="37dp"
             android:layout_gravity="center_vertical"
+            android:fontFamily="sans-serif-black"
             android:text="@string/Tests"
             android:textColor="@color/red"
-            android:textSize="17sp" />
+            android:textSize="20sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -254,7 +313,7 @@
             android:paddingTop="10dp"
             android:text="@string/Vaccinations"
             android:textColor="@color/red"
-            android:textSize="17dp" />
+            android:textSize="20dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -271,8 +330,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="186dp"
                     android:layout_gravity="center"
-                    android:orientation="vertical"
-                    android:layout_marginTop="10dp">
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
 
                     <TextView
                         android:layout_width="match_parent"
@@ -313,10 +372,10 @@
                     <Button
                         android:layout_width="103dp"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         android:backgroundTint="@color/white"
                         android:text="View"
-                        android:textColor="@color/black"
-                        android:layout_gravity="center"/>
+                        android:textColor="@color/black" />
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -337,8 +396,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="186dp"
                     android:layout_gravity="center"
-                    android:orientation="vertical"
-                    android:layout_marginTop="10dp">
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
 
                     <TextView
                         android:layout_width="match_parent"
@@ -379,10 +438,10 @@
                     <Button
                         android:layout_width="103dp"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         android:backgroundTint="@color/white"
                         android:text="View"
-                        android:textColor="@color/black"
-                        android:layout_gravity="center"/>
+                        android:textColor="@color/black" />
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -395,8 +454,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:background="@drawable/rounded_button"
-            android:textSize="20dp"
-            android:text="Continue" />
+            android:text="Continue"
+            android:textSize="20dp" />
 
     </LinearLayout>
 

@@ -43,6 +43,7 @@ public class Book_Appointment_Activity extends AppCompatActivity implements Clin
         A.setCapacity(25);
         A.setLocation("250 University Ave Suite 210, Toronto, ON M5H 3E5");
         A.setTime("8:30-14:30");
+        A.setAvai("30 Mins Wait Time");
 
         Clinic B = new Clinic();
 
@@ -50,12 +51,14 @@ public class Book_Appointment_Activity extends AppCompatActivity implements Clin
         B.setCapacity(25);
         B.setLocation("150 York Street Suite 1500, M5H 3S5, Toronto");
         B.setTime("7:00-19:00");
+        B.setAvai("45 Mins Wait Time");
 
         Clinic C = new Clinic();
         C.setClinicname("Protean Clinic");
         C.setCapacity(25);
         C.setLocation("150 King St W Suite 230, Toronto, ON M5H 3T9");
         C.setTime("9:00-17:00");
+        C.setAvai("10 Mins Wait Time");
 
         ArrayList<Clinic> clinics = new ArrayList<>();
         clinics.add(A);

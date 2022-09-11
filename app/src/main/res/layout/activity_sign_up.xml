@@ -9,10 +9,20 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="513dp"
-        android:layout_height="450dp"
+        android:layout_width="495dp"
+        android:layout_height="432dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginBottom="504dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/sign_up_circle" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="495dp"
+        android:layout_height="432dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="444dp"
+        android:layout_marginBottom="468dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/sign_up_circle" />
@@ -23,15 +33,15 @@
         android:layout_height="130dp"
         android:layout_marginTop="40dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.231"
+        app:layout_constraintHorizontal_bias="0.176"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/component_1" />
 
     <View
         android:id="@+id/myRectangleView"
-        android:layout_width="360dp"
-        android:layout_height="340dp"
+        android:layout_width="359dp"
+        android:layout_height="372dp"
         android:layout_marginTop="148dp"
         android:background="@drawable/rectangle"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -43,14 +53,14 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="145dp"
-        android:layout_height="52dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="92dp"
+        android:layout_width="164dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="108dp"
         android:fontFamily="sans-serif-black"
-        android:text="Sign up"
+        android:text="Sign Up"
         android:textColor="@color/white"
-        android:textSize="24dp"
+        android:textSize="28dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 

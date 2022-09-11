@@ -9,6 +9,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import org.w3c.dom.Text;
+
 import java.util.ArrayList;
 
 public class ClinicAdapter extends RecyclerView.Adapter<ClinicAdapter.ViewHolder>{
@@ -39,6 +41,7 @@ public class ClinicAdapter extends RecyclerView.Adapter<ClinicAdapter.ViewHolder
         holder.name.setText(clinic.clinicname);
         holder.description.setText(clinic.location);
         holder.time2.setText(clinic.time);
+        holder.availa.setText(clinic.avai);
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -61,6 +64,7 @@ public class ClinicAdapter extends RecyclerView.Adapter<ClinicAdapter.ViewHolder
         public final TextView name;
         public final TextView description;
         public final TextView time2;
+        public final TextView availa;
 
         public ViewHolder(View view) {
             super(view);
@@ -68,6 +72,7 @@ public class ClinicAdapter extends RecyclerView.Adapter<ClinicAdapter.ViewHolder
             name = view.findViewById(R.id.clinicname);
             description = view.findViewById(R.id.locationf);
             time2 = view.findViewById(R.id.time);
+            availa = view.findViewById(R.id.busyOrNot);
 
         }
     }

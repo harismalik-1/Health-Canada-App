@@ -11,6 +11,7 @@ public class Clinic {
     String extrainfo1;
     String extrainfo2;
     String extrainfo3;
+    String avai = "";
 
     public Clinic(){}
 
@@ -23,6 +24,11 @@ public class Clinic {
         this.extrainfo1 = extrainfo1;
         this.extrainfo2 = extrainfo2;
         this.extrainfo3 = extrainfo3;
+    }
+
+    public void setAvai(String avail)
+    {
+        this.avai = avail;
     }
 
     public String getClinicname() {
