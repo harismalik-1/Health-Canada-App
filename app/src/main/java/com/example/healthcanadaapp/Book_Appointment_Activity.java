@@ -42,8 +42,23 @@ public class Book_Appointment_Activity extends AppCompatActivity {
         A.setLocation("250 University Ave Suite 210, Toronto, ON M5H 3E5");
         A.setTime("8:30-14:30");
 
+        Clinic B = new Clinic();
+
+        B.setClinicname("Medcan Clinic");
+        B.setCapacity(25);
+        B.setLocation("150 York Street Suite 1500, M5H 3S5, Toronto");
+        B.setTime("7:00-19:00");
+
+        Clinic C = new Clinic();
+        C.setClinicname("Protean Clinic");
+        C.setCapacity(25);
+        C.setLocation("150 King St W Suite 230, Toronto, ON M5H 3T9");
+        C.setTime("9:00-17:00");
+
         ArrayList<Clinic> clinics = new ArrayList<>();
         clinics.add(A);
+        clinics.add(B);
+        clinics.add(C);
 
         return clinics;
 
