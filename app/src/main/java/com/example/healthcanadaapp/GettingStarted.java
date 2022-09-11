@@ -38,15 +38,15 @@ public class GettingStarted extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.getting_started_1);
         SharedPreferences settings = getSharedPreferences("prefs", 0);
-        boolean firstRun = settings.getBoolean("firstRun", true);
-        if ( !firstRun )
-        {
-            // here run your first-time instructions, for example :
-            startActivity(new Intent(getApplicationContext(), terms_and_services.class));
-
-
-
-        }
+//        boolean firstRun = settings.getBoolean("firstRun", true);
+//        if ( !firstRun )
+//        {
+//            // here run your first-time instructions, for example :
+//            startActivity(new Intent(getApplicationContext(), terms_and_services.class));
+//
+//
+//
+//        }
         getstarted = findViewById(R.id.getstartedbutton);
         getstarted.setOnClickListener(new View.OnClickListener() {
             @Override
